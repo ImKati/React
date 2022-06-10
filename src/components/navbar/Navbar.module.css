@@ -1,7 +1,12 @@
-.nav{    grid-area: n;
+.nav {
+    grid-area: n;
     background-color: #8ee5ce;
 }
 
-.item{
+.item a {
     color: white;
+}
+
+.item a.activeLink {
+    color: gold;
 }

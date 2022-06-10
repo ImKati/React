@@ -2,7 +2,7 @@ import React from  'react';
 import s from './MyPost.module.css';
 import Post from '../Post/Post';
 
-const MyPost = () => {
+const MyPost = (props) => {
     return (
         <div>
             my posts
@@ -12,8 +12,8 @@ const MyPost = () => {
             </div>
 
             <div className={s.posts}>
-                <Post />
-                <Post />
+                <Post message='Hi,how are you' />
+                <Post message="It's my first post"/>
                 <Post />
                 <Post />
                 <Post />
