@@ -15,23 +15,23 @@ const Dialogs = (props) => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <div className={s.dialog + ' ' + s.active}>
-                    <Navlink to="/dialogs/1"> Dimych</Navlink>
+                <div className={s.dialog + ' ' + s.activeLink}>
+                    <Navlink to="/dialogs/1" activeClassName={s.activeLink}> Dimych</Navlink>
                 </div>
                 <div className={s.dialog}>
-                    <Navlink to="/dialogs/2">Andrey</Navlink>
+                    <Navlink to="/dialogs/2" activeClassName={s.activeLink}>Andrey</Navlink>
                 </div>
                 <div className={s.dialog}>
-                    <Navlink to="/dialogs/3">Sveta</Navlink>
+                    <Navlink to="/dialogs/3" activeClassName={s.activeLink}>Sveta</Navlink>
                 </div>
                 <div className={s.dialog}>
-                    <Navlink to="/dialogs/4">Sasha</Navlink>
+                    <Navlink to="/dialogs/4"activeClassName={s.activeLink}>Sasha</Navlink>
                 </div>
                 <div className={s.dialog}>
-                    <Navlink to="/dialogs/5">Victor</Navlink>
+                    <Navlink to="/dialogs/5"activeClassName={s.activeLink}>Victor</Navlink>
                 </div>
                 <div className={s.dialog}>
-                    <Navlink to="/dialogs/6">Valera</Navlink>
+                    <Navlink to="/dialogs/6"activeClassName={s.activeLink}>Valera</Navlink>
                 </div>
             </div>
 
